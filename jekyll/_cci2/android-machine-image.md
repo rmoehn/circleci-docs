@@ -80,7 +80,7 @@ jobs:
   test:
     executor:
       name: android/android-machine
-      resource-class: large
+    resource_class: large
     steps:
       - checkout
       # Create an AVD named "myavd"
